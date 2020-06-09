@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
-
-
 import numpy as np
 
 A = np.array([[56, 9, 4.4, 68],
@@ -17,10 +14,3 @@ print(cal)
 
 percentage = 100 * A/cal.reshape(1,4)
 print(percentage)
-
-
-# In[ ]:
-
-
-
-
